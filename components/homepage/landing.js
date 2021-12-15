@@ -10,8 +10,6 @@ export default function Landing({ navigation }) {
     <View>
       <TouchableHighlight
         onPress={() => navigation.navigate("Firsthome")}
-        activeOpacity={0.6}
-        underlayColor="#DDDDDD"
       >
         <Image
           source={require("../../assets/splash.png")}
