@@ -8,6 +8,9 @@ import SecondHome from './components/homepage/secHome';
 import Login from './components/login/login';
 import SignIn from './components/login/signin';
 import SignUp from './components/login/signup';
+import Newpassword from './newpassword';
+import Emailsent from './components/login/emailsent';
+import Forgotpassword from './components/login/forgotpassword';
 const Stack =createNativeStackNavigator();
 
 
@@ -21,6 +24,9 @@ export default function App() {
       <Stack.Screen name='Login' component= {Login} options={{headerShown:false}}/>
       <Stack.Screen name='SignUp' component= {SignUp} options={{headerShown:false}}/>
       <Stack.Screen name='SignIn' component= {SignIn} options={{headerShown:false}}/>
+      <Stack.Screen name='Forgotpassword' component= {Forgotpassword} options={{title:"Reset Password", headerTitleAlign:'center'}}/>
+      <Stack.Screen name='Newpassword' component= {Newpassword} options={{title:"New Password", headerTitleAlign:'center'}}/>
+      <Stack.Screen name='Emailsent' component= {Emailsent} options={{headerShown:false}}/>
 
     </Stack.Navigator>
 
