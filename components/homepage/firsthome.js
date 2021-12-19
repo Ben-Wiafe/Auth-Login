@@ -45,7 +45,7 @@ const Firsthome = ({ navigation }) => {
           <Text style={{ fontSize: 16, color: "#696984" }}></Text>
         </View>
 <View>
-        <View style={{ flexDirection: "row", justifyContent: "space-between", position:'relative',top:140 }}>
+        <View style={{ flexDirection: "row", justifyContent: "space-between", top:190 }}>
         <TouchableOpacity onPress={() => navigation.replace('Login')}>
 
           <Text style={{ color: "gray", fontSize: 19 }}>

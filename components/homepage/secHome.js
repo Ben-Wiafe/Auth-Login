@@ -49,8 +49,7 @@ const SecondHome = ({ navigation }) => {
             style={{
               flexDirection: "row",
               justifyContent: "space-between",
-              position: "relative",
-              top: 140,
+              top:190
             }}
           >
             <TouchableOpacity onPress={() => navigation.replace("Login")}>
